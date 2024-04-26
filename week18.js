@@ -31,7 +31,7 @@ document.querySelector('.b-3').addEventListener('click',makeThree);
 //Создайте функцию makeFour, которая сохраняет в Local Storage логическое значение true. Ключ задайте самостоятельно. Вызывается функция по кнопке Задание 4.
 
 function makeFour() {
-	localStorage.setItem('longString1','true');
+	localStorage.setItem('longString1',true);
 	console.log('Логическое значение true было записано в Local Storage.');
 }
 document.querySelector('.b-4').addEventListener('click',makeFour);
@@ -40,7 +40,7 @@ document.querySelector('.b-4').addEventListener('click',makeFour);
 //Создайте функцию makeFive, которая сохраняет в Local Storage значение null. Ключ задайте самостоятельно. Вызывается функция по кнопке Задание 5.
 
 function makeFive() {
-	localStorage.setItem("longString2","null");
+	localStorage.setItem("longString2",null);
 	console.log('Значение null было записано в Local Storage.');
 }
 
